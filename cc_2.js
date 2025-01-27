@@ -15,3 +15,17 @@ let average = total / scores.length;
 console.log("Updated scores:", scores);
 console.log("Total scores:", total);
 console.log("Average scores:", average);
+
+// task 3
+let employee = {
+    name: "Isabela",
+    age: 26,
+    position: "developer",
+    isActive: true
+    };
+
+console.log(employee);
+
+employee.department = "IT";
+employee.position = "senior developer";
+console.log("Updated employee:", employee);
