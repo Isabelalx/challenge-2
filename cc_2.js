@@ -29,3 +29,14 @@ console.log(employee);
 employee.department = "IT";
 employee.position = "senior developer";
 console.log("Updated employee:", employee);
+
+// task 4
+let customers = [
+    { name: "Rodrigo",email: "Rodrigobabaca@gmail.com", purchaseAmount: 100 },
+    { name: "Maria", email: "Mariasophia@gmail.com", purchaseAmount: 200 },
+    { name: "Lucas", email: "Lucasgarro@gmail.com", purchaseAmount: 300 }
+    ];
+console.log(customers);
+
+customers.push({ name: "Carla", email: "Carlalinda@gmail.com", purchaseAmount: 400 });
+console.log("Updated customers:", customers);
