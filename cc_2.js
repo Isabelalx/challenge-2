@@ -32,11 +32,24 @@ console.log("Updated employee:", employee);
 
 // task 4
 let customers = [
-    { name: "Rodrigo",email: "Rodrigobabaca@gmail.com", purchaseAmount: 100 },
+    { name: "Rodrigo",email: "Rodrigogarro@gmail.com", purchaseAmount: 100 },
     { name: "Maria", email: "Mariasophia@gmail.com", purchaseAmount: 200 },
-    { name: "Lucas", email: "Lucasgarro@gmail.com", purchaseAmount: 300 }
+    { name: "Lucas", email: "Lucasferreira@gmail.com", purchaseAmount: 300 }
     ];
 console.log(customers);
 
 customers.push({ name: "Carla", email: "Carlalinda@gmail.com", purchaseAmount: 400 });
 console.log("Updated customers:", customers);
+
+// task 5
+let orders = [
+    orderID: "01",
+    customerName: "Rodrigo",
+    orderAmount: 100,   
+    calculateTax: function() {
+        const taxRate = 0.14;       
+        return this.orderAmount * taxRate;
+    }   
+    ];
+console.log(orders);
+console.log("Tax amount:", orders.calculateTax());
